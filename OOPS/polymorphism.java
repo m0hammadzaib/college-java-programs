@@ -19,5 +19,6 @@ public class polymorphism {
         student girl = new student();
 
         boy.detail("Zaib", 21);
+        girl.detail("laiba", 26);
     }
 }
