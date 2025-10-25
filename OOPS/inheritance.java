@@ -1,9 +1,13 @@
+import java.util.*;
+import bank;
+
 // class shape{
 //     String color;
 // }
 // class triangle extends shape {
 
 // }
+
 class shape{
     public void display(){
         System.out.println("Display area");
@@ -25,5 +29,8 @@ public class inheritance {
         //  triangle t = new triangle();
         //  t.color = "black";
         // System.out.println(t.color);
+
+        bank.acc newacc = new bank.acc();
+         newacc.name = "Zaib";
     }
 }
