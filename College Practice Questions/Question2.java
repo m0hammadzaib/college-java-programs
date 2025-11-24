@@ -1,14 +1,12 @@
 // program to print sum of two numbers that is input from user
-import java.util.Scanner;
+import java.util.*;
 
-public class Question2 {
+class SumTwo {
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
-        System.out.print("Enter first number: ");
-        int a = input.nextInt();
-        System.out.print("Enter second number: ");
-        int b = input.nextInt();
-        int result = a + b;
-        System.out.println("Sum is"+" "+result);
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        System.out.println("Sum = " + (a + b));
     }
 }
+
