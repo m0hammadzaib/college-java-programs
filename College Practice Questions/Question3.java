@@ -1,14 +1,17 @@
-import java.util.*;
+import java.util.Scanner;
 
-class EvenOddBitwise {
+public class Question3 {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
-        if((n & 1) == 0)
-            System.out.println("Even");
-        else
-            System.out.println("Odd");
+        Scanner input = new Scanner(System.in);
+        
+        System.out.print("Enter a number: ");
+        int num = input.nextInt();
+
+        if ((num & 1) == 0) {
+            System.out.println(num + " is even");
+        } else {
+            System.out.println(num + " is odd");
+        }
     }
 }
-
 
